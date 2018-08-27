@@ -1,0 +1,19 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcunha3/portifolio.git"
+  },
+  "author": "Luiz Cunha Filho <luizcunha3@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizcunha3/portifolio/issues"
+  },
+  "homepage": "https://github.com/luizcunha3/portifolio#readme"
+}
