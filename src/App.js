@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Index from './Components/atoms/RoundButton/index'
 
 class App extends Component {
     render() {
         return (
-            <div>
-                <div className="landing"></div>
-                <div className="content">Ola.<br/>Eu sou o Luiz.</div>
+            <div className={"gridContainer"}>
+                <Index title={"oier"} action={() => alert("clicou viado")}/>
             </div>
         );
     }
