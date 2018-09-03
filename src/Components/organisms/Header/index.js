@@ -16,10 +16,10 @@ class Header extends Component {
         return (
             <div>
                 <ButtonArray>
-                    <RoundButton title={"Title"}/>
-                    <RoundButton title={"Title"}/>
-                    <RoundButton title={"Title"}/>
-                    <RoundButton title={"Title"}/>
+                    <RoundButton title={"Home"}/>
+                    <RoundButton title={"Sobre"}/>
+                    <RoundButton title={"Currículo"}/>
+                    <RoundButton title={"Portifólio"}/>
                 </ButtonArray>
                 <Divider/>
             </div>

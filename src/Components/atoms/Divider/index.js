@@ -6,13 +6,13 @@ const DividerElement = styled.hr`
     margin: 0 auto;
     border-radius: 1rem;
     margin-top: 1.5rem;
-    
+    ${props => props.content ? 'width: 6%' : ''}
 `
 
 const Divider = (props) => {
-    return (
-        <DividerElement/>
-    )
-}
+
+       return <DividerElement content={props.content}/>
+
+};
 
 export default Divider;

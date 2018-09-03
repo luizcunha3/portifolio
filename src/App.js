@@ -1,13 +1,19 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import Index from './Components/atoms/RoundButton/index'
+import Header from './Components/organisms/Header/';
+import Footer from './Components/organisms/Footer/';
+import Home from './Components/organisms/Home/';
+
+library.add(linkedin)
 
 class App extends Component {
     render() {
         return (
             <div className={"gridContainer"}>
-                <Index title={"oier"} action={() => alert("clicou viado")}/>
+                <Header/>
+                <Home/>
+                <Footer/>
             </div>
         );
     }
