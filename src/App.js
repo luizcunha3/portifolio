@@ -10,6 +10,10 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
     max-width: 100%
     margin: 5rem 20rem
+    @media (min-width: 320px) {
+        margin: 2.5rem auto;
+        max-width: 90%
+    }
 `
 class App extends Component {
     render() {
