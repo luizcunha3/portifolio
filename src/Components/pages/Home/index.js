@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
-import Header from '../Header/';
-import Footer from '../Footer/';
 import ProfilePicture from '../../atoms/ProfilePicture/';
 import LuizImage from '../../../images/luiz_cropped.jpg';
 import Title from '../../atoms/Title/';

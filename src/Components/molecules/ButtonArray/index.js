@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     grid-auto-flow: dense;
     justify-items: center;
     margin: 0 auto;
-    ${props => props.footer ? 'width: 20%' : '' }
+    ${props => props.footer ? 'width: 30%' : '' }
     ${props => props.footer ? 'padding-top: 25px' : ''}
 `;
 

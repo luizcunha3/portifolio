@@ -5,16 +5,20 @@ import Header from './Components/organisms/Header/';
 import Footer from './Components/organisms/Footer/';
 import Home from './Components/organisms/Home/';
 
-library.add(linkedin)
+import styled from 'styled-components';
 
+const Wrapper = styled.div`
+    max-width: 100%
+    margin: 5rem 20rem
+`
 class App extends Component {
     render() {
         return (
-            <div className={"gridContainer"}>
+            <Wrapper>
                 <Header/>
                 <Home/>
                 <Footer/>
-            </div>
+            </Wrapper>
         );
     }
 }
