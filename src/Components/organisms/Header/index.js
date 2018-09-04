@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
-import styled from 'styled-components';
+import { navigate } from '@reach/router';
 
 import RoundButton from "../../atoms/RoundButton/";
 import Divider from '../../atoms/Divider/'
 import ButtonArray from '../../molecules/ButtonArray/'
-
-const Wrapper = styled.div`
-    
-`;
 
 class Header extends Component {
 
@@ -16,9 +12,9 @@ class Header extends Component {
         return (
             <div>
                 <ButtonArray>
-                    <RoundButton title={"Home"}/>
+                    <RoundButton title={"Home"} action={() => navigate('/')}/>
                     <RoundButton title={"Sobre"}/>
-                    <RoundButton title={"Currículo"}/>
+                    <RoundButton title={"Currículo"} action={() => navigate('/curriculo')}/>
                     <RoundButton title={"Portifólio"}/>
                 </ButtonArray>
                 <Divider/>

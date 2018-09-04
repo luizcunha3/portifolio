@@ -11,11 +11,13 @@ const Wrapper = styled.div`
     margin: 0 auto;
     ${props => props.footer ? 'width: 30%' : '' }
     ${props => props.footer ? 'padding-top: 25px' : ''}
+    ${props => props.footer ? 'padding-bottom: 25px' : ''}
     
-     @media (min-width: 320px) {
+     @media (max-width: 414px) {
         ${props => props.footer ? 'width: 80%' : '' }
     }
     
+   
     
 `;
 
